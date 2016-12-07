@@ -1,0 +1,88 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* universal */
+
+body {
+	background-image: url(asset-path("background.jpg"));
+	background-attachment: fixed;
+    padding-top: 60px;
+}
+
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6,p {
+  line-height: 1;
+  color:white;
+  font-family: 'Bungee', cursive;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+.about,.image_center{
+	text-align:center;
+}
+
+img{
+	height: 100px;
+	width: 100px;
+	border-radius: 5px;
+}
+article,footer{
+	text-align:center;
+}
+
+.image{
+	height: 500px;
+	width: 500px;
+	border-radius: 5px;
+}
+
+.decaler,.ruby{
+	color:#880110;
+	
+}
+#Global #gauche {
+    float:left;
+    width:60%;
+}
+#Global #droite {
+    margin-left:60%   
+}
+
+li{
+	display:inline-block;
+	margin-left:300px;
+}
+
+.photo_me{
+	height: 200px;
+	width: 200px;
+}

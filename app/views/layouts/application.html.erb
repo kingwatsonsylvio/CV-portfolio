@@ -3,12 +3,20 @@
   <head>
     <title>Portfolio</title>
     <%= csrf_meta_tags %>
-
+	<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+   <nav role="navigation" class="navbar navbar-default navbar-fixed-top ">
+        <div class="container ">
+          <p class="navbar-text hvr-wobble-to-top-right"><%= link_to('Acceuil', '/') %></p>          
+          <p class="navbar-text hvr-wobble-to-top-right"><%= link_to('Curriculum vitae', '/cv') %></p>
+        </div>
+    </nav>
+
     <%= yield %>
+     <footer><p>&copy Sylvio watson - 2016</p></footer>
   </body>
 </html>
